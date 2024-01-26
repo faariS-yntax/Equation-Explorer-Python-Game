@@ -13,7 +13,7 @@ window.title("Equation Explorer")
 window.attributes("-fullscreen", True)
 
 # Load the instruction image
-instruction_image = tk.PhotoImage(file="G:\My Drive\Sem 4\TMS2813 (Computational Science Lab)\project\FINALE CSLAB\instruction.png")
+instruction_image = tk.PhotoImage(file="instruction.png")
 
 # Create a label to display the instruction image
 instruction_label = tk.Label(window, image=instruction_image)
